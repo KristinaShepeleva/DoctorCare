@@ -1,0 +1,29 @@
+:root {
+    --gray-headline-color: #212529;
+    --gray-paragraph: #495057;
+    --brand-green: #00856F;
+    --brand-green-hover: #00453A;
+    --brand-green-light: #DCE9E2;
+    --brand-green-light-two: #F7F9F9;
+    --brand-beige: #FFFAF1;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-paragraph);
+
+}
+
+/**generous **/
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
