@@ -13,85 +13,94 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href=""><img src="./img/logo.svg" alt="logo"></a>
-            <ul>
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Serviços</li>
-                <li>Depoimentos</li>
+    <header class="section-header">
+        <div class="container header-nav">
+        <nav class="nav-list">
+            <a class="logo" href=""><img src="./img/logo.svg" alt="logo"></a>
+            <ul class="nav-item">
+                <li class="list current">Início</li>
+                <li class="list">Sobre</li>
+                <li class="list">Serviços</li>
+                <li class="list">Depoimentos</li>
             </ul>
         </nav>
-        <button type="button">Agendar consulta</button>
+        <button class="button second" type="button">Agendar consulta</button>
+        </div>
     </header>
 
     <main>
-        <section class="hero">
-            <h2>BOAS-VINDAS A DOCTORCARE 👋</h2>
-            <h1>Assistência médica simplificada para todos</h1>
-            <p>Os médicos da DoctorCare vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo
+        <section class="section-hero">
+            <div class="container">
+            <div class="content-hero">
+            <h2 class="title">BOAS-VINDAS A DOCTORCARE 👋</h2>
+            <h1 class="main-title">Assistência médica simplificada para todos</h1>
+            <p class="text">Os médicos da DoctorCare vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo
             prazo.</p>
-            <button type="button">Agende sua consulta</button>
+            <button class="button first" type="button">Agende sua consulta</button>
+            </div>
 
             <div class="numbers">
-                <ul>
+                <ul class="numbers-list">
                     <li>
-                    <p>+3.500</p>
-                    <p>Pacientes atendidos</p></li>
+                    <p class="numeric">+3.500</p>
+                    <p class="advantage">Pacientes atendidos</p></li>
                     <li>
-                        <p>+15</p>
-                        <p>Especialistas disponíveis</p>
+                    <p class="numeric">+15</p>
+                    <p class="advantage">Especialistas disponíveis</p>
                     </li>
                     <li>
-                        <p>+10</p>
-                        <p>Anos no mercado</p>
+                    <p class="numeric">+10</p>
+                    <p class="advantage">Anos no mercado</p>
                     </li>
                 </ul>
+            </div>
 
             </div>
         </section>
 
         <section class="servicos">
-            <h3>SERVIÇOS</h3>
-            <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
-            <ul>
-                <li>
+            <div class="container">
+            <h2 class="title">SERVIÇOS</h3>
+            <h3 class="title">Como podemos ajudá-lo a se sentir melhor?</h2>
+            <ul class="list-cards">
+                <li class="card">
                     <h4>Problemas digestivos</h4>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
                 </li>
 
-                <li>
+                <li class="card">
                     <h4>Saúde Hormonal</h4>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
                 </li>
 
-                 <li>
+                 <li class="card">
                     <h4>Bem-estar mental</h4>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
                 </li>
 
-                <li>
+                <li class="card">
                     <h4>Cuidados Pediátricos</h4>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
                 </li>
 
-                <li>
+                <li class="card">
                     <h4>Autoimune e Inflamação</h4>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
                 </li>
 
-                <li>
+                <li class="card">
                     <h4>Saúde do Coração</h4>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.</p>
                 </li>
             </ul>
+
+            </div>
         </section>
 
         <section class="about">
             <img src="./img/happy-doctor-holding-a-clipboard-with-patients.jpg" alt="">
             <h3>SOBRE NÓS</h3>
-            <h2>Entenda quem somos e por que existimos</h2>
+            <h2 class="title">Entenda quem somos e por que existimos</h2>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim
             mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non
             deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim. Amet minim mollit non deserunt
@@ -100,7 +109,7 @@
         </section>
 
         <section class="contacts">
-            <h2>Entre em contato com a gente!</h2>
+            <h2 class="title">Entre em contato com a gente!</h2>
             <address>
                 <ul>
                     <li>
