@@ -131,7 +131,7 @@ img {
    width: 605px;
 }
 
-h2.title {
+.title-small {
     margin-bottom: 16px;
 
     color: var(--brand-green);
@@ -197,9 +197,9 @@ h2.title {
     background-color: var(--brand-green-light-two)
 }
 
-h3.title {
+.title-big {
     width: 500px;
-    margin: 0 auto 64px auto ;
+    margin: 0 auto 64px auto;
 
     font-weight: 700;
     font-size: 40px;
@@ -207,7 +207,7 @@ h3.title {
     text-align: center;
 }
 
-.servicos h2.title {
+.servicos .title-small {
     text-align: center;
 }
 
@@ -229,3 +229,43 @@ h3.title {
 .card h4 {
     margin-bottom: 16px;
 }
+
+
+/**about**/
+
+.about {
+    padding: 160px 160px;
+    background-color: var(--brand-beige);
+}
+
+.about .title-big {
+    text-align: left;
+    margin: 0 0 24px 0;
+}
+
+.about .wrapper {
+    display: flex;
+}
+
+.content-about {
+    margin-left: 57px;
+}
+
+/**contacts**/
+
+.contacts {
+    padding: 160px 160px;
+    background-color: #FFFFFF;
+}
+
+.contacts .title-big {
+    text-align: left;
+    margin: 0 0 40px 0;
+}
+
+.contacts .wrapper-contacts {
+    display: flex;
+
+justify-content: space-between;    
+}
+
