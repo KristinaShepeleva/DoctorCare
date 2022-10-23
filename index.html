@@ -12,16 +12,17 @@
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header class="section-header">
         <div class="container header-nav">
         <nav class="nav-list">
             <a class="logo" href=""><img src="./img/logo.svg" alt="logo"></a>
             <ul class="nav-item">
-                <li class="list current">Início</li>
-                <li class="list">Sobre</li>
-                <li class="list">Serviços</li>
-                <li class="list">Depoimentos</li>
+                <li class="list current"><a class="link" href="">Início</a> </li>
+                <li class="list"><a class="link" href="">Sobre</a> </li>
+                <li class="list"><a class="link" href="">Serviços</a></li>
+                <li class="list"><a class="link" href="">Depoimentos</a> </li>
             </ul>
         </nav>
         <button class="button second" type="button">Agendar consulta</button>
@@ -115,12 +116,12 @@
                 <div class="adress">
             <h2 class="title-big">Entre em contato com a gente!</h2>
             <address>
-                <ul>
-                    <li>
-                        <a href="">R. Amauri Souza, 346</a>
+                <ul class="adress-list">
+                    <li class="link-adress">
+                        <a class="link" href="">R. Amauri Souza, 346</a>
                     </li>
                     <li>
-                        <a href="mailto:contato@doctorcare.com">contato@doctorcare.com</a>
+                        <a class="link" href="mailto:contato@doctorcare.com">contato@doctorcare.com</a>
                     </li>
                 </ul>
             </address></div>
@@ -131,10 +132,11 @@
 
     </main>
 
-    <footer>
-        <a href="./img/LOGO-white.svg"></a>
-        <p>©2022 - DoctorCare.</p>
-        <p>Todos os direitos reservados.</p>
+    <footer class="footer">
+        <div class="container">
+        <a href=""><img class="logo-footer" width="256" src="./img/logo-white.svg" alt=""></a>
+        <p class="subtitle-one"><span>&#169</span> 2022 - DoctorCare.</p>
+        <p class="subtitle">Todos os direitos reservados.</p></div>
     </footer>
     
 </body>
