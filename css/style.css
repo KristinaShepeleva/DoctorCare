@@ -57,6 +57,7 @@ img {
 /**header **/
 
 .section-header {
+    
     background-color: var(--brand-green-light);
 }
 
@@ -131,6 +132,9 @@ img {
 /**hero**/
 
 .section-hero {
+    background-image: url(../img/girl.png);
+    background-repeat: no-repeat;
+    background-position: 950px 10px;
     background-color: var(--brand-green-light);
 }
 
@@ -235,6 +239,9 @@ img {
     background-color: #ffffff;
 }
 
+.card img {
+    margin-bottom: 16px;
+}
 .card h4 {
     margin-bottom: 16px;
 }
@@ -286,6 +293,15 @@ color: var(--gray-paragraph);
 
 .link-adress {
     margin-bottom: 16px;
+}
+
+.adress-list .link-adress::before {
+    content: "";
+    background-image: url(../img/map-pin-1.svg);
+}
+
+.address {
+    margin-bottom: 40px;
 }
 
 /**footer**/
