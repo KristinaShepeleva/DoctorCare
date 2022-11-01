@@ -1,0 +1,30 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="icon-youtube" viewBox="0 0 32 32">
+      <path fill="none" stroke="#fffaf1" style="stroke:var(--color1, #fffaf1)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M30.053 8.56a3.703 3.703 0 0 0-2.586-2.667C25.174 5.333 16 5.333 16 5.333s-9.173 0-11.467.613c-.628.178-1.197.518-1.652.986s-.777 1.048-.935 1.681a38.606 38.606 0 0 0-.613 7.053c-.015 2.383.19 4.762.613 7.107.175.613.504 1.171.958 1.619s1.014.772 1.629.941c2.293.613 11.467.613 11.467.613s9.173 0 11.467-.613a3.708 3.708 0 0 0 2.586-2.667 38.57 38.57 0 0 0 .613-7 38.663 38.663 0 0 0-.613-7.107z"/>
+      <path fill="none" stroke="#fffaf1" style="stroke:var(--color1, #fffaf1)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="m13 20.027 7.667-4.36L13 11.307v8.72z"/>
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 32 32">
+      <path fill="none" stroke="#fffaf1" style="stroke:var(--color1, #fffaf1)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M24 2.667h-4a6.67 6.67 0 0 0-6.667 6.667v4h-4v5.333h4v10.667h5.333V18.667h4l1.333-5.333h-5.333v-4A1.334 1.334 0 0 1 20 8h4V2.667z"/>
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 32 32">
+      <path fill="none" stroke="#fffaf1" style="stroke:var(--color1, #fffaf1)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M22.667 2.667H9.334a6.667 6.667 0 0 0-6.667 6.667v13.333a6.667 6.667 0 0 0 6.667 6.667h13.333a6.667 6.667 0 0 0 6.667-6.667V9.334a6.667 6.667 0 0 0-6.667-6.667z"/>
+      <path fill="none" stroke="#fffaf1" style="stroke:var(--color1, #fffaf1)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M21.333 15.16a5.329 5.329 0 0 1-2.878 5.546 5.337 5.337 0 0 1-6.169-.992 5.33 5.33 0 0 1 1.316-8.505 5.336 5.336 0 0 1 6.228.962 5.328 5.328 0 0 1 1.504 2.989zM23.333 8.667h.013"/>
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 32 32">
+      <path fill="none" stroke="#00856f" style="stroke:var(--color2, #00856f)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M5.333 5.333h21.333c1.467 0 2.667 1.2 2.667 2.667v16c0 1.467-1.2 2.667-2.667 2.667H5.333A2.675 2.675 0 0 1 2.666 24V8c0-1.467 1.2-2.667 2.667-2.667z"/>
+      <path fill="none" stroke="#00856f" style="stroke:var(--color2, #00856f)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M29.333 8 16 17.333 2.667 8"/>
+    </symbol>
+    <symbol id="icon-map-pin" viewBox="0 0 32 32">
+      <path fill="none" stroke="#00856f" style="stroke:var(--color2, #00856f)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M28 13.333c0 9.333-12 17.333-12 17.333s-12-8-12-17.333a12.003 12.003 0 0 1 12-12 12.003 12.003 0 0 1 12 12z"/>
+      <path fill="none" stroke="#00856f" style="stroke:var(--color2, #00856f)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2.667" d="M16 17.333a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/>
+    </symbol>
+    <symbol id="icon-cheeck-icon" viewBox="0 0 32 32">
+      <path fill="#dce9e2" style="fill:var(--color3, #dce9e2)" d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z"/>
+      <path fill="none" stroke="#00856f" style="stroke:var(--color2, #00856f)" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" d="m22.788 10.909-9.333 9.333L9.213 16"/>
+    </symbol>
+    <symbol id="icon-whatsapp" viewBox="0 0 32 32">
+      <path fill="#fff" style="fill:var(--color4, #fff)" d="M22.134 18.667c-.267-.133-2-.933-2.267-1.067s-.533-.133-.8.133C18.8 18 18.267 18.8 18 19.066c-.133.267-.4.267-.667.133-.933-.4-1.867-.933-2.667-1.6a15.391 15.391 0 0 1-1.867-2.267c-.133-.267 0-.533.133-.667s.267-.4.533-.533c.133-.133.267-.4.267-.533.133-.133.133-.4 0-.533s-.8-1.733-1.067-2.4c-.133-.933-.4-.933-.667-.933h-.667c-.267 0-.667.267-.8.4-.8.8-1.2 1.733-1.2 2.8.133 1.2.533 2.4 1.333 3.467 1.467 2.133 3.333 3.867 5.6 4.933.667.267 1.2.533 1.867.667.667.267 1.333.267 2.133.133.933-.133 1.733-.8 2.267-1.6.267-.533.267-1.067.133-1.6l-.533-.267zm3.333-12.134c-5.2-5.2-13.6-5.2-18.8 0-4.267 4.267-5.067 10.8-2.133 16l-1.867 6.8 7.067-1.867c2 1.067 4.133 1.6 6.267 1.6 7.333 0 13.2-5.867 13.2-13.2.133-3.467-1.333-6.8-3.733-9.333zm-3.6 18.667c-1.733 1.067-3.733 1.733-5.867 1.733-2 0-3.867-.533-5.6-1.467l-.4-.267-4.133 1.067 1.067-4-.267-.4c-3.2-5.333-1.6-12 3.6-15.333S22.134 4.933 25.334 10c3.2 5.2 1.733 12-3.467 15.2z"/>
+    </symbol>
+  </defs>
+</svg>
