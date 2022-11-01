@@ -306,6 +306,7 @@ img {
 
 justify-content: space-between;    
 }
+
 .adress-list .link {
     font-style: normal;
 font-size: 16px;
@@ -313,13 +314,14 @@ line-height: 150%;
 color: var(--gray-paragraph);
 }
 
-.link-adress {
+.list-contacts  {
     margin-bottom: 16px;
+    display: flex;
+    align-items: center;
 }
 
-.adress-list .link-adress::before {
-    content: "";
-    background-image: url(../img/map-pin-1.svg);
+.icon-link {
+    margin-right: 8px;
 }
 
 .address {
