@@ -140,9 +140,8 @@ img {
 /**hero**/
 
 .section-hero {
-    background-image: url(../img/girl.png);
-    background-repeat: no-repeat;
-    background-position: 950px 10px;
+    height: 606px;
+   
     background-color: var(--brand-green-light);
 }
 
@@ -197,7 +196,19 @@ img {
     background-color: var(--brand-green-hover)
 }
 
+.container.hero-wrapper {
+    position: relative;
+    height: 606px;
+    background-image: url(../img/girl.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    
+}
+
 .numbers {
+    position: absolute;
+    width: 100%;
+    bottom: -105px;
     padding: 60px 120px;
     background-color: var(--brand-beige);
     border: 1px solid #DCE9E2;
@@ -346,3 +357,18 @@ color: var(--gray-paragraph);
     margin-bottom: 15px;
 }
 
+.footer-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-social {
+    margin-right: 32px;
+}
+
+.icon-social:last-child {
+    margin-right: 0;
+}
